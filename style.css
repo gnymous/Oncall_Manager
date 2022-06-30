@@ -60,7 +60,9 @@ button:active {
   }
 }
 .imageField {
+  text-align: center;
   margin: 2em;
-  zoom: 140%;
+  zoom: 110%;
   opacity: 0.2;
+  overflow: hidden;
 }

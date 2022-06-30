@@ -13,6 +13,9 @@ function calculateTime() {
       footer: "End date is older than start date.",
     });
   }
+  else {
+    Swal.fire("You didn't enter any date!");
+  }
 }
 function msToTime(duration) {
     if (duration>=3660000) {
